@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    height: 100;
+}
+
+.banner {
+    width: 1440;
+    height:70px;
+    display: flex;
+    background-color: black;
+    
+}
+
+.content {
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    width: 70%;
+}
+
+.left {
+    width:  ;
+}
+
+.logo{
+    max-height: 50px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width
+}
+
+.language {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.globe-icon {
+    margin-right: 5px;
+}
+
+select {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.play-now {
+    background-color: #fdb900;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+}
+
+.play-now:hover {
+    background-color: #ffa800;
+}   
+
+.container{
+    /* width: 1600px;
+    height: 44px;
+    background-color:#222222;
+    color: white; */
+
+}
+.nav{
+    width: 1600px;
+    height: 44px;
+    background-color:#222222;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:10px;
+    
+}
+
+.baner {
+    /* position: relative; */
+    width: 100%;
+    height: 100vh; /* Высота баннера на весь экран */
+       background: url(img/timur.png) no-repeat center ;
+    height: 100vh;  
+    background-size: cover;
+    height: 100vh;  
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center; 
+}
+.text{
+        /* position: relative; */
+        z-index: 2;
+}
+.nav-buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.pc-button .console-button {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.pc-button {
+    width: 235px;
+    height: 73px;
+    background-color: #fdb900; /* Жёлтая кнопка для PC */
+}
+.console-button {
+    width: 235px;
+    height: 73px;
+    background-color:#000000; /* Синяя кнопка для Console */
+    color: white;
+}
+
+h1 {
+    background-color: rgba(255, 193, 7, 0.8); /* Полупрозрачный жёлтый фон для текста */
+    margin-top:50px;
+    padding: 10px 20px;
+    font-size: 36px;
+
+
+
+
+}
+
+.nav-buttons{
+    margin-bottom:40px;
+}
+    
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    /* position:absolute; */
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.icons {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* right: 10px; */
+    /* transform: translateY(-50%); */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+    display: block;
+}
+
+.icons-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.wrapper {
+    display:flex ;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+
+.icons-wrapper {
+    display: flex;
+    gap: 24px;
+    padding-top: 20px;
+  
+}
